@@ -3,7 +3,7 @@ git status -s: Es para ver si el archivo tiene seguimiento de control de código
 	       Si no se ve el archivo es porque ya está en el repositorio, es porque está en el área de ensayo.
 
 letra verde A: está en ensayo, que si se hace seguimiento al archivo.
-letra rojo M: Archivo modificado.
+letra rojo M: EL archivo modificado.
 
 git add "nombre archivo": Es para actualizar el archivo y dejarlo como la ultima modificacion.
 
@@ -12,3 +12,4 @@ git commit -m "Nombre que le damos a la modificacion": Es para guardar el cambio
 git log --oneline: Es para ver los cambios guardados que tengo
 
 git reset --hard codigoparavolveratrás: Es para volver atrás usando el código que obtenemos usando --oneline
+
